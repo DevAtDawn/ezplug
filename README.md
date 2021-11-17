@@ -7,9 +7,13 @@ this plugin uses the cmd Ezplug to appened text to a file called plugins.vim, wh
 make a file called ~/.config/nvim/plugins.vim and source it inside the init.vim plugins sections 
 
 call plug#begin()
+
   Plug 'DevAtDawn/ezplug'
+  
   source ~/.config/nvim/plugins.vim
+  
 call plug#end()
+
 
 # USAGE
 to install a plugin, enter the vim command line and type
@@ -28,7 +32,9 @@ Ezvimplug DevAtDawn/ezplug
 Use your favorite plugin manager to install this plugin. vim-plug example: Plug 'DevAtDawn/ezplug'
 
 create a file called plugins.vim in $HOME/.config/nvim
+
 (same place your init.vim is stored) ex: home/<user>/.config/nvim/plugins.vim
+  
 now inside init.vim, source this file by adding the line "source ~/.config/nvim/plugins.vim" to the same section as the previous command
 
 Vim-Plug
