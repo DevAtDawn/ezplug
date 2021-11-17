@@ -33,7 +33,7 @@ vim-plug example: Plug 'DevAtDawn/ezplug'
 
 create a file called plugins.vim in $HOME/.config/nvim
 
-(same place your init.vim is stored) ex: home/<user>/.config/nvim/plugins.vim
+(same place your init.vim is stored) ex: home/user/.config/nvim/plugins.vim
   
 now inside init.vim, source this file by adding the line "source ~/.config/nvim/plugins.vim" to the same section as the previous command
 
