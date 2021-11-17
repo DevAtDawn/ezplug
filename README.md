@@ -5,7 +5,7 @@ this plugin uses the cmd Ezplug to appened text to a file called plugins.vim, wh
 
 # TLDR
 make a file called ~/.config/nvim/plugins.vim and source it inside the init.vim plugins sections 
-
+```vim
 call plug#begin()
 
   Plug 'DevAtDawn/ezplug'
@@ -13,7 +13,7 @@ call plug#begin()
   source ~/.config/nvim/plugins.vim
   
 call plug#end()
-
+```
 
 # USAGE
 to install a plugin, enter the vim command line and type
