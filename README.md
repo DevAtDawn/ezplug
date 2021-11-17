@@ -1,5 +1,6 @@
 # ezplug
 neovim plugin to easily add new plugins without editing init.vim
+
 this plugin uses the cmd Ezplug to appened text to a file called plugins.vim, which is sourced inside init.vim
 
 # TLDR
