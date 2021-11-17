@@ -29,7 +29,7 @@ or for vim-plug you can do
 Ezvimplug DevAtDawn/ezplug
 
 # INSTAll
-Use your favorite plugin manager to install this plugin. vim-plug example: Plug 'DevAtDawn/ezplug'
+vim-plug example: Plug 'DevAtDawn/ezplug'
 
 create a file called plugins.vim in $HOME/.config/nvim
 
@@ -37,21 +37,17 @@ create a file called plugins.vim in $HOME/.config/nvim
   
 now inside init.vim, source this file by adding the line "source ~/.config/nvim/plugins.vim" to the same section as the previous command
 
-Vim-Plug
+  <details>
+  <summary>Vim-Plug</summary>
 
-    Install Vim-Plug, according to its instructions.
-    Add the following text to your vimrc.
-    
+1. Install Vim-Plug, according to its instructions.
+1. Add the following text to your `vimrc`.
+```vim
 call plug#begin()
   Plug 'DevAtDawn/ezplug'
   source ~/.config/nvim/plugins.vim
 call plug#end()
-
-    Restart Vim, and run the :PlugInstall statement to install your plugins.
-
- 
-
-
-
-
-
+```
+1. Restart Vim, and run the `:PlugInstall` statement to install your plugins.
+</details>
+  
